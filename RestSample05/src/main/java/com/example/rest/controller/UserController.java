@@ -20,7 +20,9 @@ public class UserController {
 	
 	// /api/usersから一覧取得するメソッド getUserAll()
 	public ResponseEntity<List<Map<String, Object>>> getUserAll() {
+		List<Map<String, Object>> list = userService.findAll();
 		
+		return ResponseEntity.ok(list);
 	}
 	
-}
+}// 5/6
