@@ -5,6 +5,6 @@ import java.util.Map;
 
 public interface UserRepository {
 	
-	List<Map<String,Object>> selectAll();
+	List<Map<String, Object>> selectAll();
 	
 }
