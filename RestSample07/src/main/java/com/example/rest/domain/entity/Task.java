@@ -17,7 +17,7 @@ public class Task {
 	private String title;
 	private String description;
 	private LocalDate dueDate;
-	private Boolean due;
+	private Boolean done;
 	private String city;
 	
 }

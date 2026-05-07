@@ -12,7 +12,10 @@ public class ResponseCreatorImple implements ResponseCreator {
 
 	@Override
 	public TaskResponse createTaskResponse(Task e) {
-		// TODO 自動生成されたメソッド・スタブ
+		
+		TaskResponse result = new TaskResponse(e.getId(), e.getTitle(), 
+				e.getDescription(), e.getDueDate(), e.getDone(), e.getCity());
+		
 		return null;
 	}
 
